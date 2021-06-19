@@ -1,0 +1,84 @@
+    *{
+        box-sizing: border-box;
+        
+        
+    }
+    .cntainer{
+        height: 700px;
+        margin-top: 20px;
+        align-content: center;
+        border-radius: 4px;
+        padding: 50px;
+        margin: 50px 470px;
+        border: 1px solid thistle;
+        background-color: rgba(255, 255, 255, 0.774);
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    }
+    .head{
+        font-size: 20px;
+        color: grey;
+        height: 19px;
+    }
+   
+
+.nameoncard{
+    color: rgba(193, 0, 252, 0.788);
+    font-weight: lighter;
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border: 1px solid lightgrey;
+}
+.cardnumber{
+    color: rgba(193, 0, 252, 0.788);
+    font-weight: lighter;
+    margin-top: 25px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid lightgrey;
+}
+hr{
+    background-color: rgba(193, 0, 252, 0.863);
+    
+}
+.cvv
+{
+    color: rgba(193, 0, 252, 0.788);
+    font-weight: lighter;
+    border-radius: 3px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    
+    border: 1px solid lightgrey;
+}
+
+.expdate{
+    color: rgba(193, 0, 252, 0.788);
+    font-weight: lighter;
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid lightgrey;
+
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    border: 0px solid lightgrey;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, .2);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
